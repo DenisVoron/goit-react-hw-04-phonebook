@@ -25,7 +25,7 @@ export function ContactsForm(props) {
     const handleNameChange = event => {
         const {name, value} = event.currentTarget;
 
-        console.log(name);
+        //console.log(name);
         switch (name) {
             case 'name':
                 setName(value);
